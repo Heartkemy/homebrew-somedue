@@ -15,7 +15,7 @@ cask "somedue" do
   desc "Native macOS task manager"
   homepage "https://github.com/Heartkemy/somedue"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Somedue.app"
 
